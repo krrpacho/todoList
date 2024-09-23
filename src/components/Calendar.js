@@ -1,9 +1,12 @@
 import React from 'react';
 import './Calendar.css';
 
-const Calendar = () => {
+const Calendar = ({ translations }) => {
 
-  const daysOfWeek = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+  const daysOfWeek = [
+    translations.monday, translations.tuesday, translations.wednesday,
+    translations.thursday, translations.friday, translations.saturday, translations.sunday
+  ];
 
   const today = new Date();
   const todayDate = today.getDate();

@@ -1,0 +1,23 @@
+{
+    "search_tasks": "Search tasks",
+    "today": "Today",
+    "week": "This week",
+    "uncompleted_only": "Uncompleted only",
+    "sort_by_date": "Sort by date",
+    "new_task": "New Task",
+    "task_title": "Task Title",
+    "task_description": "Task Description",
+    "add": "Add",
+    "close": "Close",
+    "sort": "Sort",
+    "reset": "Reset",
+    "monday": "Mon",
+    "tuesday": "Tue",
+    "wednesday": "Wed",
+    "thursday": "Thu",
+    "friday": "Fri",
+    "saturday": "Sat",
+    "sunday": "Sun",
+    "delete": "Delete"
+  }
+  

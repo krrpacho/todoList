@@ -1,0 +1,23 @@
+{
+    "search_tasks": "Поиск задач",
+    "today": "Сегодня",
+    "week": "На этой неделе",
+    "uncompleted_only": "Только невыполненные",
+    "sort_by_date": "Сортировать по дате",
+    "new_task": "Новая задача",
+    "task_title": "Название задачи",
+    "task_description": "Описание задачи",
+    "add": "Добавить",
+    "close": "Закрыть",
+    "sort": "Сортировать",
+    "reset": "Сброс",
+    "monday": "Пн",
+    "tuesday": "Вт",
+    "wednesday": "Ср",
+    "thursday": "Чт",
+    "friday": "Пт",
+    "saturday": "Сб",
+    "sunday": "Вс",
+    "delete": "Удалить"
+  }
+  

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TaskList = ({ tasks, search, showUncompleted, onToggleCompletion, onDeleteTask }) => {
+const TaskList = ({ tasks, search, showUncompleted, onToggleCompletion, onDeleteTask, translations }) => {
   const filteredTasks = tasks.filter(task => {
     const matchesSearch = task.title.toLowerCase().includes(search.toLowerCase());
     const matchesCompletion = !showUncompleted || !task.completed;
@@ -19,7 +19,9 @@ const TaskList = ({ tasks, search, showUncompleted, onToggleCompletion, onDelete
             />
             <span className="task-title">{task.title}</span>
             <span className="task-date">{new Date(task.createdAt).toLocaleDateString()}</span>
-            <button className="delete-button" onClick={() => onDeleteTask(index)}>Удалить</button>
+            <button className="delete-button" onClick={() => onDeleteTask(index)}>
+              {translations.delete}
+            </button>
           </div>
           <p>{task.description}</p>
         </div>
@@ -28,4 +30,4 @@ const TaskList = ({ tasks, search, showUncompleted, onToggleCompletion, onDelete
   );
 };
 
-export default TaskList;//
+export default TaskList;
