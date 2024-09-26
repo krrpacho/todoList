@@ -1,5 +1,4 @@
 # Todo react web application
-![Uploading image.png…]()
 
 
 ## Для запуска:
