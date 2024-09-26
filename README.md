@@ -1,5 +1,7 @@
 # Todo react web application
 
+![To-Do App Screenshot](./todo.jpg)
+
 
 ## Для запуска:
 
